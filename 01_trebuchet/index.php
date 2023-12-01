@@ -14,8 +14,6 @@ foreach ($lines as $line) {
     $last_digit = substr($numbers, LAST_CODE_NUMBER);
 
     $finalNumberCode = $first_digit . $last_digit;
-    $calibration_values[] = $finalNumberCode;
-
     $totalSum += intval($finalNumberCode);
 }
 
